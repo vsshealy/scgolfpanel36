@@ -10,3 +10,33 @@
  * License: GNU General Public License v3 or Later
  * License URI: http://www.gnu.org/license/gpl-3.0.html
 **/
+
+// THEME PATH
+    $theme-path: "/wp-content/themes/scgolfpanel";
+
+// COLORS
+    // SETTINGS
+        $color-scgolfpanel-green: #00672f;
+        $color-scgolfpanel-brown: #948056;
+        $color-scgolfpanel-beige: #ccc999;
+        $color-scgolfpanel-gray: #444544;
+        $color-scgolfpanel-blue: #0072bb;
+
+    // PARTIALS
+        @import "variables/colors";
+
+// UNITS
+    // SETTINGS
+        $base-unit: 1.00rem;
+
+    // PARTIALS
+        @import "variables/units";
+
+// MEDIA
+    // SETTINGS
+        $site-width-min: 90.00%;
+        $site-width-max: 100.00%;
+        $site-width-content: 1440px;
+        
+    // PARTIALS
+        @import "variables/media";
